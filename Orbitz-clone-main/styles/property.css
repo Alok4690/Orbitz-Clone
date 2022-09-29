@@ -1,0 +1,338 @@
+/* 
+*{
+    margin:0;
+} */
+
+html{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ }
+
+ #nav-icon-div{
+    background-color:white;
+    height:60px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    margin-left:20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    top:0;
+    left:0;
+    position:sticky;
+ }
+
+ /* #icon_nav{
+     height:30px
+ } */
+
+#main-am{
+    height:425px;
+    width:100%;
+    /* border:1px solid red; */
+    /* overflow:hidden; */
+    background-image:url("https://headless.expediagroup.com/content/dam/marketing/headless/images/home-page/Content-page-image-hero-LG2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    /* background-size: cover; */
+    display:flex;
+}
+
+#box1-am{
+    height:400px;
+    width:670px;
+    /* border:1px solid black; */
+}
+
+#box-am{
+    height:460px;
+    width:600px;
+    /* border:1px solid black; */
+    margin-top:30px;
+}
+
+#icon-div{
+    height:60px;
+    width:200px;
+    /* border:1px solid black; */
+    display:flex;
+}
+
+#icon-am{
+    width:170px;
+} 
+
+#para1{
+    text-align:left;
+    margin-top:2px;
+   
+}
+
+#choice-am{
+    /* border:1px solid green; */
+    background-color: white;
+    height:330px;
+    width:550px;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#choice1-am{
+    /* border:1px solid green; */
+    display:flex; gap:20px;
+    margin-left:42px;
+    /* justify-content:center */
+}
+
+#title-div{
+    border:1px solid transparent
+    /* margin-top:40px; */
+}
+
+#title-am{
+    color:#000099;
+    margin-left:42px;
+}
+.lodge-am{
+ align-items:center;
+ height:200px;
+ width:220px;
+ border:2px solid rgb(71, 71, 209);
+ border-radius:15px;
+}
+
+.lodge-am>h2{
+   margin-top:30px;
+   text-align:center;
+   line-height:2px;
+   color:rgb(43, 43, 43);
+}
+
+.lodge-am>p{
+   text-align:center;
+   font-weight: lighter;
+   font-size:small;
+   color:rgb(119, 118, 118);
+}
+
+.image-div{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   margin-top:40px;
+}
+
+
+
+
+
+
+#para2-am{
+    /* border:1px solid black; */
+    margin:auto;
+    width:70%;
+    margin-top:110px;
+}
+#para2-am>h1{
+    text-align:center;
+    color:rgb(43, 43, 43);
+}
+#para2-am>p{
+    text-align:center;
+}
+
+#container1{
+    display:grid;
+    grid-template-columns:repeat(3,330px);
+    gap:50px;
+    /* border:1px solid black; */
+    margin-top:60px;
+    justify-content:center;
+    align-items:center;
+}
+
+.inner_box{
+    height:300px;
+    /* border:1px solid pink; */
+}
+
+.img1-am{
+    height:100px;
+    width:100px;
+    margin-left:30%;
+    margin-bottom:25px;
+}
+
+.h2-am{
+    text-align:center;
+    color:rgb(43, 43, 43);
+}
+
+.p-am{
+    text-align:center;
+    font-size:15px;
+    color:rgb(44, 43, 43);
+}
+#title1-am{
+    text-align:center;
+    color:rgb(43, 43, 43);
+    margin-top:50px
+}
+
+#logos-am{
+    display:grid;
+    /* border:1px solid black; */
+    margin-top:40px;
+    grid-template-columns:repeat(8,120px);
+    gap:25px;
+    justify-content:center;
+    align-items:center;
+}
+
+#para3-am{
+    text-align:center;
+    color:rgb(43, 43, 43);
+    margin-top:20px
+}
+
+#para4-am{
+    /* border:1px solid black; */
+    margin:auto;
+    width:70%;
+    margin-top:100px;
+}
+#para4-am>h1{
+    text-align:center;
+    color:rgb(43, 43, 43);
+    margin-bottom:10px;
+}
+#para4-am>p{
+    text-align:center;
+    line-height:20px;
+}
+
+#box2-am{
+    display:grid;
+    margin-top:80px;
+    /* border:1px solid black; */
+    grid-template-columns:repeat(2,450px);
+    gap:70px;
+    justify-content:center;
+    align-items:center;
+}
+
+.image2-div{
+    /* border:1px solid black; */
+    display:flex;
+    justify-content:center;
+}
+.image2-am{
+    height:100px;
+    width:160px;
+}
+
+.para5-am{
+    /* border:1px solid black; */
+    margin-top:40px
+}
+.para5-am>h2{
+    text-align:center;
+    color:rgb(43, 43, 43);
+}
+.para5-am>p{
+    text-align:center;
+    font-size:15px;
+    line-height:20px;
+}
+
+#greybox{
+    width:100%;
+    height:310px;
+    background-color: #EFF1F3;
+    margin-top:100px;
+    border:1px solid transparent;
+    text-align:center;
+}
+
+#greybox>h1{
+    margin-top:50px
+}
+
+#greybox>p{
+    font-size:13px;
+    color:rgb(74, 74, 74)
+}
+#greybox>button{
+    height:45px;
+    width:150px;
+    background-color: #000099;
+    border:none;
+    color:white;
+    font-size:14px;
+    margin-top:15px
+
+}
+
+#para6-am{
+    margin-top:45px;
+    font-size:13px;
+    color:rgb(74, 74, 74)
+}
+
+#bluebox{
+    /* border:1px solid blue; */
+    /* margin:auto; */
+    background-color: #000099;
+    
+}
+
+#div1-am{
+    /* border:1px solid blue; */
+    /* height:100px;
+    width:70%; */
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+    gap:170px;
+    color:white;
+
+}
+
+#foot1,#foot2{
+    /* border:1px solid black; */
+    width:150px;
+    height:60px;
+    margin-top:20px;
+}
+
+#foot3{
+    /* border:1px solid black; */
+     width:220px; 
+    color:white;  
+}
+#div2-am{
+    /* border:1px solid white; */
+    font-size:12px
+}
+
+#img-expedia{
+    height:100px;
+    width:140px;
+    margin-bottom:-35px;
+   
+}
+hr{
+    width:80%;
+    border: 1px solid #5252ff;
+    margin-top:20px;
+}
+#div3-am{
+    /* border:1px solid white; */
+    height:80px;
+    width:90%;
+    text-align:center;
+    line-height:5px;
+    font-size:12px;
+    color:white;
+    margin-top:25px;
+}
+
+
+

@@ -1,0 +1,397 @@
+
+/* ---------------NAVBAR------------------------------- */
+
+body{
+    background-color:rgb(255, 254, 254)
+}
+
+#navbar{
+    height:100px;
+    width:100vw;
+    /* border:1px solid black;s */
+    background-color: #00253C;
+    
+}
+
+#box-am{
+   margin:auto;
+   width:80%;
+   display:flex;
+   justify-content:space-between;
+}
+
+#div1-am{
+    width:22.5%;
+    height:60px;
+    display:flex;
+   justify-content:space-between;
+   align-items:center;
+} 
+#image-am{
+    width:140px;
+    height:250px;
+    cursor:pointer;
+}
+#select-box-am{
+    border:none;
+    width:80px;
+  
+}
+#select-box-am button{
+    height:25px;
+    width:110px;
+    background-color: #8e0099;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+#div2-am{
+    width:40%;
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+#div2-am>button{
+    border:none;
+    background-color:#00253C;
+    color:#00b1ff;
+    font-size:11px;
+    font-weight:bold;
+    cursor:pointer;
+   border-radius: 5px;
+    height:33px;
+    width:90px;
+}
+#list{
+    height:33px;
+    width:130px;
+    border :1px solid #00b1ff;
+    color:#0d6b94;
+    background-color:#00253C ;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left:270px;
+    border-radius: 3px;
+}
+#list:hover{
+color:#00b1ff
+}
+#div-sa{
+    margin-left: 130px;
+    
+}
+
+#div-sa button{
+    background-color:#00253C ;
+    color:#00b1ff;
+    border:none;
+    cursor: pointer;
+    
+    
+}
+#div2-am>button:hover{
+    background-color: rgb(213, 241, 237);
+    text-decoration: underline;
+  }
+
+  #div-sa> button:hover{
+    color:#00b1ff;
+      text-decoration: underline;
+  }
+  #support{
+       height:30px; 
+       width:80px; 
+       background-color:#00253C;
+       color:#00b1ff;
+       border: none;
+       cursor: pointer;
+  }
+  #support:hover{
+    background-color: rgb(213, 241, 237);
+  }
+  #sk{
+      height:20px;
+      width:90%;
+      background-color: red;
+      color:white;
+
+  }
+  #s1{
+      background-color: #00253C;
+      color:white;
+  }
+/* ------------------------------support-------------------------------- */
+#top{
+    display:flex;
+    height:100px;
+    width:100%;
+    gap:60px;
+    text-align:center;
+    background:url(https://s3-us-west-1.amazonaws.com/csp.assets/header/1200/orbitz-1200x100.jpg)
+}
+#box{
+    display:flex;
+    height:55px;
+    width:420px;
+    margin-top:18px;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+#top h1{
+   color:white;
+    padding-left: 135px; 
+}
+#box2{
+    height:202px;
+    width:auto;
+    background-color: #d5e7fb;
+    padding-left: 70px;
+    padding-top: 30px;
+
+}
+#box2 p{
+    font-size: 18px;
+    color:#0065b8;
+    cursor: pointer;
+    
+}
+#box2 h5{
+    color:#616161;
+    position: absolute;
+    top:205px;
+    left:160px;
+    font-size: 18px;
+}
+
+/* button{
+    height:51px;
+    width:210px;
+    background-color: white;
+    
+} */
+#btn1{
+    height: 42%;
+    width:220px;
+    background-color: white;
+    display:flex;
+    border:none;
+    
+
+}
+#btns{
+    height:120px;
+    width:100%;
+    display: flex;
+    gap:20px;
+    border-radius: 3px;
+    
+}
+#text{
+    height:50px;
+    width:620px;
+    gap:40px;
+    display:flex;
+    font-size: 18px;
+    padding-bottom:20px;
+
+}
+#sh{
+    height:630px;
+    width:100%;
+    background-color: #d4d4d4;
+}
+    
+h2{ height:20px;
+    width:500px;
+    font-weight: 400;
+    color: #616161;
+    font-size: 1em;
+    display: flex;
+    padding-left:70px;
+}
+#middle{
+    height:400px;
+    width:270px;
+    border:1px solid #d4d4d4;
+    margin-left: 70px;
+
+}
+#m1{
+    height:49px;
+    width:auto;
+    color:#1f1f1f;
+    border :1px solid #d4d4d4; 
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+i{
+    padding-right: 10px;
+}
+#m2{
+    height:52px;
+    width:auto;
+    border:1px solid;
+} 
+#btnl > button{
+    text-align: center;
+    background-color: #ffffff;
+    color: #0065bb;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-left: 45%;
+    border:1px solid #0065bb;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 302px;
+    
+}
+#btnl > button:hover{
+    color:#004888;
+}
+#sh2{
+    height:290px;
+    width:85%;
+    border:3px solid #0e67b5;
+    border-radius: 10px;
+    
+    margin: auto;
+    position: relative;
+    bottom: 302px;
+}
+#sh3{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+}
+#sh3 img{
+    height:58px;
+    width:58px;
+    margin-top: 25px;
+}
+#sh3 h5{
+    height:30px;
+    width:270px;
+    font-size:24px;
+    margin-top: 24px;
+}
+#number{
+    height:39px;
+    width:285px;
+    margin-left: 58px;
+    margin-top: -20px;
+    
+}
+#submit{
+    height:41px;
+    width:78px;
+    color:white;
+    background-color: #df3864;
+    border:none;
+    border-radius: 3px;
+    
+}
+
+#shimg{
+    
+     float:right;
+     position: relative;
+     right: 50px;
+     bottom: 190px;
+}
+#sh5{
+    
+    height:47px;
+    color:#1b2e4a;
+    display: flex;
+    gap:15px;
+}
+#sh5 img{
+    height:30px;
+    width:35px;
+    margin-top: 15px;
+    margin-left: 10px;
+    gap:-5px
+}
+p{
+    font-size: 13px;
+   margin-left: 15px;
+   color:#1b2e4a;
+}
+#ptag h5{
+    color:#616161;
+    font-size: .76470588em;
+    font-weight: 700;
+    margin-left: 100px;
+    position: relative;
+    bottom: 302px;
+}
+#sh6{
+    /* width:80%;
+    height:50px; */
+    /* border:1px solid; */
+    display:flex;
+    gap:30px;
+}
+#sh6-1{
+    display:flex;
+    cursor: pointer;
+}
+#ss{
+    background-color: #ffffff;
+    height:48px;
+    width:auto;
+    border: 1px solid;
+}
+#shk1{
+    width:65%;
+    height:55px;
+     border:1px solid #f5f5f5; 
+    background-color: #ffff;
+    margin: auto;
+    margin-left: 400px;
+    position: relative;
+    bottom: 402px;
+}
+#shk1 h3{
+    color:#0065b8;
+    
+}
+i{padding-left: 10px;
+   padding-right:10px;
+}
+#combine{
+   display: flex;
+  
+}
+#ptag i{
+    padding-left: 2px;;
+}
+#lastt p{
+    position: relative;
+    bottom: 302px;
+    color:#616161;
+margin-left: 92px;}
+#lastt img{
+    position: relative;
+    bottom: 302px;
+  margin-left: 42%;
+}
+#icon i{
+    position: relative;
+    left:-110px;
+    top:40px; 
+     color:#aa9f9f; 
+    
+    cursor: pointer;
+}
+
+
+

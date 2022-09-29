@@ -1,0 +1,93 @@
+/* *{
+    margin:0
+} */
+
+
+html{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ }
+ 
+#navbar2{
+    display:flex;
+    border:none;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    height:40px;
+    align-items:center;
+}
+
+#img_div{
+    display:flex;
+    margin:auto;
+}
+
+#nav_img{
+    width:140px;
+}
+
+
+#container{
+    height:500px;
+    width:350px;
+    margin:5% auto;
+    margin-top:10px;
+}
+
+#head{
+    color:rgb(41, 41, 41);
+}
+
+#email,#fname,#lname,#pass{
+    width:95%;
+    height:40px;
+    margin-bottom:22px;
+    border:1px solid rgb(158, 158, 158);
+}
+
+::placeholder{
+    font-size:12px 
+}
+
+input[type-text]:focus{
+    border:1px solid teal;
+}
+
+#text{
+    color:rgb(99, 99, 99);
+    font-size:12px;
+}
+
+#text2{
+    color:rgb(99, 99, 99);
+    font-size:12px;
+}
+span{
+    color:teal;
+}
+
+#btn{
+    width:95%;
+    height:40px;
+    font-size:14px;
+    color:white;
+    background-color: #c83259;
+    border:none;
+    cursor:pointer;
+}
+
+#text3{
+    text-align:center;
+    color:rgb(99, 99, 99);
+    font-size:11px;
+}
+
+#link_signin{
+    text-decoration: none;
+    color:teal;
+}
+
+/* .fa{
+    margin-right:10px;
+}
+.eye{
+    position:absolute
+} */

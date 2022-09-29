@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="styles/payment.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="heading">
+            <img src="https://www.orbitz.com/_dms/header/logo.svg?locale=en_US&siteid=70201" alt="" id="title">
+        </div>
+        <div id="signin">
+            <a href="signup.html" style="text-decoration: none;color: white; font-size: 20px;"><p >Signin</p></a>
+        </div>
+    </div>
+
+    <div id="maincontainer">
+
+        <h1 style="font-size: 25px;">Secure booking - only takes 2 minutes!</h1>
+    <div id="covid">
+        <p style="color: rgb(122,85,5);"><i class="fa-solid fa-triangle-exclamation" style="margin-right: 10px;color: rgb(122,85,5) ;"></i>Check COVID-19 restrictions.</p>
+        <a href="" style="color: rgb(122,85,5);margin-left: 20px;">Find out more</a>
+    </div>
+
+    <div id="cancel">
+       
+        <div id="cancel-right">
+            <p style="font-weight: bold; color: black;"><i class="fa-solid fa-badge-check"></i>Free cancellation before Sun, Jan 30, 6:00pm (property local time)</p>
+            <p> You can change or cancel this stay for a full refund if plans change. Because flexibility matters.</p>
+        </div>
+    </div>
+
+    <div id="bigcontainer">
+        <div id="smallcontainer">
+            <div id="earn">
+              
+                <a href="" style="text-decoration: none; color: black;"><h3 style="color: blue;"><i class="fa-solid fa-lock" style="color: black;margin-right: 10px;"></i>
+                Sign in to earn $4.04 in Orbucks <i class="fa-solid fa-angles-down" style="font-size: small;"></i></h3></a>
+            </div>
+            <div id="booking">
+                <!-- <div id="room">
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <div id="room1">
+                        <h3 style="font-size:medium;">Room 1:2 Adults, 1 king Bed </h3>
+                        <p style="color: rgb(43, 175, 43);"> Breakfast included Free Parking Free wifi</p>
+                    </div>
+                </div> -->
+             <div id="room">
+                   
+                <div class="priya" style="display: flex; padding-left: 10px;">
+                    <h3 style="font-size:medium;"><i class="fa-solid fa-user" style="margin-right: 10px;"></i>Room 1: </h3>
+                    <p style="color:black;">2 Adults, 1 king Bed</p>
+                </div>
+                <div class="priya">
+                    <p class="green">Breakfast included</p>
+                    <p class="green">Free Parking</p>
+                    <p class="green">Free Wifi</p>
+                </div>
+            </div>
+                <div class="priya">
+                    <div id="buski">
+                      <div id="sam">
+                        <label for="first_name"
+                          >First Name <span style="color: red"><sup>*</sup></span>
+                        </label>
+                        <input
+                          type="text"
+                          id="first_name"
+                          placeholder="(e.g. Priya)"
+                        />
+                        <p id="wrong_first_name"></p>
+                      </div>
+                      <div id="ravi">
+                        <label for="last_name"
+                          >Last Name
+                          <span style="color: red"><sup>*</sup></span></label
+                        >
+                        <input
+                          type="text"
+                          id="last_name"
+                          placeholder="(e.g. Reddy)"
+                        />
+                        <p id="wrong_last_name"></p>
+                      </div>
+                    </div>
+            </div>
+           
+            <div id="preeti">
+                <label for=""
+                >Mobile phone number
+                <span style="color: red"><sup>*</sup></span></label>
+              <div style="display: flex">
+                <div id="country_code" style="width: 15%">
+                  <select name="countryCode" id="">
+                    <option data-countryCode="In" value="91" selected>
+                      India (+91)
+                    </option>
+                    <option data-countryCode="US" value="1">USA (+1)</option>
+                    <optgroup label="Other countries">
+                      <option data-countryCode="DZ" value="213">
+                        Algeria (+213)
+                      </option>
+                      <option data-countryCode="AD" value="376">
+                        Andorra (+376)
+                      </option>
+                      <option data-countryCode="AO" value="244">
+                        Angola (+244)
+                      </option>
+                      <option data-countryCode="AI" value="1264">
+                        Anguilla (+1264)
+                      </option>
+                      <option data-countryCode="AG" value="1268">
+                        Antigua &amp; Barbuda (+1268)
+                      </option>
+                      <option data-countryCode="AR" value="54">
+                        Argentina (+54)
+                      </option>
+                      <option data-countryCode="AM" value="374">
+                        Armenia (+374)
+                      </option>
+                      <option data-countryCode="AW" value="297">
+                        Aruba (+297)
+                      </option>
+                      <option data-countryCode="AU" value="61">
+                        Australia (+61)
+                      </option>
+                      <option data-countryCode="AT" value="43">
+                        Austria (+43)
+                      </option>
+                      <option data-countryCode="AZ" value="994">
+                        Azerbaijan (+994)
+                      </option>
+                      <option data-countryCode="BS" value="1242">
+                        Bahamas (+1242)
+                      </option>
+                      <option data-countryCode="BH" value="973">
+                        Bahrain (+973)
+                      </option>
+                      <option data-countryCode="BD" value="880">
+                        Bangladesh (+880)
+                      </option>
+                      <option data-countryCode="BB" value="1246">
+                        Barbados (+1246)
+                      </option>
+                      <option data-countryCode="BY" value="375">
+                        Belarus (+375)
+                      </option>
+                      <option data-countryCode="BE" value="32">
+                        Belgium (+32)
+                      </option>
+                      <option data-countryCode="BZ" value="501">
+                        Belize (+501)
+                      </option>
+                      <option data-countryCode="BJ" value="229">
+                        Benin (+229)
+                      </option>
+                      <option data-countryCode="BM" value="1441">
+                        Bermuda (+1441)
+                      </option>
+                      <option data-countryCode="BT" value="975">
+                        Bhutan (+975)
+                      </option>
+                      <option data-countryCode="BO" value="591">
+                        Bolivia (+591)
+                      </option>
+                      <option data-countryCode="BA" value="387">
+                        Bosnia Herzegovina (+387)
+                      </option>
+                      <option data-countryCode="BW" value="267">
+                        Botswana (+267)
+                      </option>
+                      <option data-countryCode="BR" value="55">
+                        Brazil (+55)
+                      </option>
+                      <option data-countryCode="BN" value="673">
+                        Brunei (+673)
+                      </option>
+                      <option data-countryCode="BG" value="359">
+                        Bulgaria (+359)
+                      </option>
+                      <option data-countryCode="BF" value="226">
+                        Burkina Faso (+226)
+                      </option>
+                      <option data-countryCode="BI" value="257">
+                        Burundi (+257)
+                      </option>
+                      <option data-countryCode="KH" value="855">
+                        Cambodia (+855)
+                      </option>
+                      <option data-countryCode="CM" value="237">
+                        Cameroon (+237)
+                      </option>
+                      <option data-countryCode="CA" value="1">
+                        Canada (+1)
+                      </option>
+                      <option data-countryCode="CV" value="238">
+                        Cape Verde Islands (+238)
+                      </option>
+                      <option data-countryCode="KY" value="1345">
+                        Cayman Islands (+1345)
+                      </option>
+                      <option data-countryCode="CF" value="236">
+                        Central African Republic (+236)
+                      </option>
+                      <option data-countryCode="CL" value="56">
+                        Chile (+56)
+                      </option>
+                      <option data-countryCode="CN" value="86">
+                        China (+86)
+                      </option>
+                      <option data-countryCode="CO" value="57">
+                        Colombia (+57)
+                      </option>
+                      <option data-countryCode="KM" value="269">
+                        Comoros (+269)
+                      </option>
+                      <option data-countryCode="CG" value="242">
+                        Congo (+242)
+                      </option>
+                      <option data-countryCode="CK" value="682">
+                        Cook Islands (+682)
+                      </option>
+                      <option data-countryCode="CR" value="506">
+                        Costa Rica (+506)
+                      </option>
+                      <option data-countryCode="HR" value="385">
+                        Croatia (+385)
+                      </option>
+                      <option data-countryCode="CU" value="53">
+                        Cuba (+53)
+                      </option>
+                      <option data-countryCode="CY" value="90392">
+                        Cyprus North (+90392)
+                      </option>
+                      <option data-countryCode="CY" value="357">
+                        Cyprus South (+357)
+                      </option>
+                      <option data-countryCode="CZ" value="42">
+                        Czech Republic (+42)
+                      </option>
+                      <option data-countryCode="DK" value="45">
+                        Denmark (+45)
+                      </option>
+                      <option data-countryCode="DJ" value="253">
+                        Djibouti (+253)
+                      </option>
+                      <option data-countryCode="DM" value="1809">
+                        Dominica (+1809)
+                      </option>
+                      <option data-countryCode="DO" value="1809">
+                        Dominican Republic (+1809)
+                      </option>
+                      <option data-countryCode="EC" value="593">
+                        Ecuador (+593)
+                      </option>
+                      <option data-countryCode="EG" value="20">
+                        Egypt (+20)
+                      </option>
+                      <option data-countryCode="SV" value="503">
+                        El Salvador (+503)
+                      </option>
+                      <option data-countryCode="GQ" value="240">
+                        Equatorial Guinea (+240)
+                      </option>
+                      <option data-countryCode="ER" value="291">
+                        Eritrea (+291)
+                      </option>
+                      <option data-countryCode="EE" value="372">
+                        Estonia (+372)
+                      </option>
+                      <option data-countryCode="ET" value="251">
+                        Ethiopia (+251)
+                      </option>
+                      <option data-countryCode="FK" value="500">
+                        Falkland Islands (+500)
+                      </option>
+                      <option data-countryCode="FO" value="298">
+                        Faroe Islands (+298)
+                      </option>
+                      <option data-countryCode="FJ" value="679">
+                        Fiji (+679)
+                      </option>
+                      <option data-countryCode="FI" value="358">
+                        Finland (+358)
+                      </option>
+                      <option data-countryCode="FR" value="33">
+                        France (+33)
+                      </option>
+                      <option data-countryCode="GF" value="594">
+                        French Guiana (+594)
+                      </option>
+                      <option data-countryCode="PF" value="689">
+                        French Polynesia (+689)
+                      </option>
+                      <option data-countryCode="GA" value="241">
+                        Gabon (+241)
+                      </option>
+                      <option data-countryCode="GM" value="220">
+                        Gambia (+220)
+                      </option>
+                      <option data-countryCode="GE" value="7880">
+                        Georgia (+7880)
+                      </option>
+                      <option data-countryCode="DE" value="49">
+                        Germany (+49)
+                      </option>
+                      <option data-countryCode="GH" value="233">
+                        Ghana (+233)
+                      </option>
+                      <option data-countryCode="GI" value="350">
+                        Gibraltar (+350)
+                      </option>
+                      <option data-countryCode="GR" value="30">
+                        Greece (+30)
+                      </option>
+                      <option data-countryCode="GL" value="299">
+                        Greenland (+299)
+                      </option>
+                      <option data-countryCode="GD" value="1473">
+                        Grenada (+1473)
+                      </option>
+                      <option data-countryCode="GP" value="590">
+                        Guadeloupe (+590)
+                      </option>
+                      <option data-countryCode="GU" value="671">
+                        Guam (+671)
+                      </option>
+                      <option data-countryCode="GT" value="502">
+                        Guatemala (+502)
+                      </option>
+                      <option data-countryCode="GN" value="224">
+                        Guinea (+224)
+                      </option>
+                      <option data-countryCode="GW" value="245">
+                        Guinea - Bissau (+245)
+                      </option>
+                      <option data-countryCode="GY" value="592">
+                        Guyana (+592)
+                      </option>
+                      <option data-countryCode="HT" value="509">
+                        Haiti (+509)
+                      </option>
+                      <option data-countryCode="HN" value="504">
+                        Honduras (+504)
+                      </option>
+                      <option data-countryCode="HK" value="852">
+                        Hong Kong (+852)
+                      </option>
+                      <option data-countryCode="HU" value="36">
+                        Hungary (+36)
+                      </option>
+                      <option data-countryCode="IS" value="354">
+                        Iceland (+354)
+                      </option>
+                      <option data-countryCode="ID" value="62">
+                        Indonesia (+62)
+                      </option>
+                      <option data-countryCode="IR" value="98">
+                        Iran (+98)
+                      </option>
+                      <option data-countryCode="IQ" value="964">
+                        Iraq (+964)
+                      </option>
+                      <option data-countryCode="IE" value="353">
+                        Ireland (+353)
+                      </option>
+                      <option data-countryCode="IL" value="972">
+                        Israel (+972)
+                      </option>
+                      <option data-countryCode="IT" value="39">
+                        Italy (+39)
+                      </option>
+                      <option data-countryCode="JM" value="1876">
+                        Jamaica (+1876)
+                      </option>
+                      <option data-countryCode="JP" value="81">
+                        Japan (+81)
+                      </option>
+                      <option data-countryCode="JO" value="962">
+                        Jordan (+962)
+                      </option>
+                      <option data-countryCode="KZ" value="7">
+                        Kazakhstan (+7)
+                      </option>
+                      <option data-countryCode="KE" value="254">
+                        Kenya (+254)
+                      </option>
+                      <option data-countryCode="KI" value="686">
+                        Kiribati (+686)
+                      </option>
+                      <option data-countryCode="KP" value="850">
+                        Korea North (+850)
+                      </option>
+                      <option data-countryCode="KR" value="82">
+                        Korea South (+82)
+                      </option>
+                      <option data-countryCode="KW" value="965">
+                        Kuwait (+965)
+                      </option>
+                      <option data-countryCode="KG" value="996">
+                        Kyrgyzstan (+996)
+                      </option>
+                      <option data-countryCode="LA" value="856">
+                        Laos (+856)
+                      </option>
+                      <option data-countryCode="LV" value="371">
+                        Latvia (+371)
+                      </option>
+                      <option data-countryCode="LB" value="961">
+                        Lebanon (+961)
+                      </option>
+                      <option data-countryCode="LS" value="266">
+                        Lesotho (+266)
+                      </option>
+                      <option data-countryCode="LR" value="231">
+                        Liberia (+231)
+                      </option>
+                      <option data-countryCode="LY" value="218">
+                        Libya (+218)
+                      </option>
+                      <option data-countryCode="LI" value="417">
+                        Liechtenstein (+417)
+                      </option>
+                      <option data-countryCode="LT" value="370">
+                        Lithuania (+370)
+                      </option>
+                      <option data-countryCode="LU" value="352">
+                        Luxembourg (+352)
+                      </option>
+                      <option data-countryCode="MO" value="853">
+                        Macao (+853)
+                      </option>
+                      <option data-countryCode="MK" value="389">
+                        Macedonia (+389)
+                      </option>
+                      <option data-countryCode="MG" value="261">
+                        Madagascar (+261)
+                      </option>
+                      <option data-countryCode="MW" value="265">
+                        Malawi (+265)
+                      </option>
+                      <option data-countryCode="MY" value="60">
+                        Malaysia (+60)
+                      </option>
+                      <option data-countryCode="MV" value="960">
+                        Maldives (+960)
+                      </option>
+                      <option data-countryCode="ML" value="223">
+                        Mali (+223)
+                      </option>
+                      <option data-countryCode="MT" value="356">
+                        Malta (+356)
+                      </option>
+                      <option data-countryCode="MH" value="692">
+                        Marshall Islands (+692)
+                      </option>
+                      <option data-countryCode="MQ" value="596">
+                        Martinique (+596)
+                      </option>
+                      <option data-countryCode="MR" value="222">
+                        Mauritania (+222)
+                      </option>
+                      <option data-countryCode="YT" value="269">
+                        Mayotte (+269)
+                      </option>
+                      <option data-countryCode="MX" value="52">
+                        Mexico (+52)
+                      </option>
+                      <option data-countryCode="FM" value="691">
+                        Micronesia (+691)
+                      </option>
+                      <option data-countryCode="MD" value="373">
+                        Moldova (+373)
+                      </option>
+                      <option data-countryCode="MC" value="377">
+                        Monaco (+377)
+                      </option>
+                      <option data-countryCode="MN" value="976">
+                        Mongolia (+976)
+                      </option>
+                      <option data-countryCode="MS" value="1664">
+                        Montserrat (+1664)
+                      </option>
+                      <option data-countryCode="MA" value="212">
+                        Morocco (+212)
+                      </option>
+                      <option data-countryCode="MZ" value="258">
+                        Mozambique (+258)
+                      </option>
+                      <option data-countryCode="MN" value="95">
+                        Myanmar (+95)
+                      </option>
+                      <option data-countryCode="NA" value="264">
+                        Namibia (+264)
+                      </option>
+                      <option data-countryCode="NR" value="674">
+                        Nauru (+674)
+                      </option>
+                      <option data-countryCode="NP" value="977">
+                        Nepal (+977)
+                      </option>
+                      <option data-countryCode="NL" value="31">
+                        Netherlands (+31)
+                      </option>
+                      <option data-countryCode="NC" value="687">
+                        New Caledonia (+687)
+                      </option>
+                      <option data-countryCode="NZ" value="64">
+                        New Zealand (+64)
+                      </option>
+                      <option data-countryCode="NI" value="505">
+                        Nicaragua (+505)
+                      </option>
+                      <option data-countryCode="NE" value="227">
+                        Niger (+227)
+                      </option>
+                      <option data-countryCode="NG" value="234">
+                        Nigeria (+234)
+                      </option>
+                      <option data-countryCode="NU" value="683">
+                        Niue (+683)
+                      </option>
+                      <option data-countryCode="NF" value="672">
+                        Norfolk Islands (+672)
+                      </option>
+                      <option data-countryCode="NP" value="670">
+                        Northern Marianas (+670)
+                      </option>
+                      <option data-countryCode="NO" value="47">
+                        Norway (+47)
+                      </option>
+                      <option data-countryCode="OM" value="968">
+                        Oman (+968)
+                      </option>
+                      <option data-countryCode="PW" value="680">
+                        Palau (+680)
+                      </option>
+                      <option data-countryCode="PA" value="507">
+                        Panama (+507)
+                      </option>
+                      <option data-countryCode="PG" value="675">
+                        Papua New Guinea (+675)
+                      </option>
+                      <option data-countryCode="PY" value="595">
+                        Paraguay (+595)
+                      </option>
+                      <option data-countryCode="PE" value="51">
+                        Peru (+51)
+                      </option>
+                      <option data-countryCode="PH" value="63">
+                        Philippines (+63)
+                      </option>
+                      <option data-countryCode="PL" value="48">
+                        Poland (+48)
+                      </option>
+                      <option data-countryCode="PT" value="351">
+                        Portugal (+351)
+                      </option>
+                      <option data-countryCode="PR" value="1787">
+                        Puerto Rico (+1787)
+                      </option>
+                      <option data-countryCode="QA" value="974">
+                        Qatar (+974)
+                      </option>
+                      <option data-countryCode="RE" value="262">
+                        Reunion (+262)
+                      </option>
+                      <option data-countryCode="RO" value="40">
+                        Romania (+40)
+                      </option>
+                      <option data-countryCode="RU" value="7">
+                        Russia (+7)
+                      </option>
+                      <option data-countryCode="RW" value="250">
+                        Rwanda (+250)
+                      </option>
+                      <option data-countryCode="SM" value="378">
+                        San Marino (+378)
+                      </option>
+                      <option data-countryCode="ST" value="239">
+                        Sao Tome &amp; Principe (+239)
+                      </option>
+                      <option data-countryCode="SA" value="966">
+                        Saudi Arabia (+966)
+                      </option>
+                      <option data-countryCode="SN" value="221">
+                        Senegal (+221)
+                      </option>
+                      <option data-countryCode="CS" value="381">
+                        Serbia (+381)
+                      </option>
+                      <option data-countryCode="SC" value="248">
+                        Seychelles (+248)
+                      </option>
+                      <option data-countryCode="SL" value="232">
+                        Sierra Leone (+232)
+                      </option>
+                      <option data-countryCode="SG" value="65">
+                        Singapore (+65)
+                      </option>
+                      <option data-countryCode="SK" value="421">
+                        Slovak Republic (+421)
+                      </option>
+                      <option data-countryCode="SI" value="386">
+                        Slovenia (+386)
+                      </option>
+                      <option data-countryCode="SB" value="677">
+                        Solomon Islands (+677)
+                      </option>
+                      <option data-countryCode="SO" value="252">
+                        Somalia (+252)
+                      </option>
+                      <option data-countryCode="ZA" value="27">
+                        South Africa (+27)
+                      </option>
+                      <option data-countryCode="ES" value="34">
+                        Spain (+34)
+                      </option>
+                      <option data-countryCode="LK" value="94">
+                        Sri Lanka (+94)
+                      </option>
+                      <option data-countryCode="SH" value="290">
+                        St. Helena (+290)
+                      </option>
+                      <option data-countryCode="KN" value="1869">
+                        St. Kitts (+1869)
+                      </option>
+                      <option data-countryCode="SC" value="1758">
+                        St. Lucia (+1758)
+                      </option>
+                      <option data-countryCode="SD" value="249">
+                        Sudan (+249)
+                      </option>
+                      <option data-countryCode="SR" value="597">
+                        Suriname (+597)
+                      </option>
+                      <option data-countryCode="SZ" value="268">
+                        Swaziland (+268)
+                      </option>
+                      <option data-countryCode="SE" value="46">
+                        Sweden (+46)
+                      </option>
+                      <option data-countryCode="CH" value="41">
+                        Switzerland (+41)
+                      </option>
+                      <option data-countryCode="SI" value="963">
+                        Syria (+963)
+                      </option>
+                      <option data-countryCode="TW" value="886">
+                        Taiwan (+886)
+                      </option>
+                      <option data-countryCode="TJ" value="7">
+                        Tajikstan (+7)
+                      </option>
+                      <option data-countryCode="TH" value="66">
+                        Thailand (+66)
+                      </option>
+                      <option data-countryCode="TG" value="228">
+                        Togo (+228)
+                      </option>
+                      <option data-countryCode="TO" value="676">
+                        Tonga (+676)
+                      </option>
+                      <option data-countryCode="TT" value="1868">
+                        Trinidad &amp; Tobago (+1868)
+                      </option>
+                      <option data-countryCode="TN" value="216">
+                        Tunisia (+216)
+                      </option>
+                      <option data-countryCode="TR" value="90">
+                        Turkey (+90)
+                      </option>
+                      <option data-countryCode="TM" value="7">
+                        Turkmenistan (+7)
+                      </option>
+                      <option data-countryCode="TM" value="993">
+                        Turkmenistan (+993)
+                      </option>
+                      <option data-countryCode="TC" value="1649">
+                        Turks &amp; Caicos Islands (+1649)
+                      </option>
+                      <option data-countryCode="TV" value="688">
+                        Tuvalu (+688)
+                      </option>
+                      <option data-countryCode="UG" value="256">
+                        Uganda (+256)
+                      </option>
+                      <!-- <option data-countryCode="GB" value="44">UK (+44)</option> -->
+                      <option data-countryCode="UA" value="380">
+                        Ukraine (+380)
+                      </option>
+                      <option data-countryCode="AE" value="971">
+                        United Arab Emirates (+971)
+                      </option>
+                      <option data-countryCode="UY" value="598">
+                        Uruguay (+598)
+                      </option>
+                      <option data-countryCode="GB" value="44">
+                        UK (+44)
+                      </option>
+                      <!-- <option data-countryCode="US" value="1">USA (+1)</option> -->
+                      <option data-countryCode="UZ" value="7">
+                        Uzbekistan (+7)
+                      </option>
+                      <option data-countryCode="VU" value="678">
+                        Vanuatu (+678)
+                      </option>
+                      <option data-countryCode="VA" value="379">
+                        Vatican City (+379)
+                      </option>
+                      <option data-countryCode="VE" value="58">
+                        Venezuela (+58)
+                      </option>
+                      <option data-countryCode="VN" value="84">
+                        Vietnam (+84)
+                      </option>
+                      <option data-countryCode="VG" value="84">
+                        Virgin Islands - British (+1284)
+                      </option>
+                      <option data-countryCode="VI" value="84">
+                        Virgin Islands - US (+1340)
+                      </option>
+                      <option data-countryCode="WF" value="681">
+                        Wallis &amp; Futuna (+681)
+                      </option>
+                      <option data-countryCode="YE" value="969">
+                        Yemen (North)(+969)
+                      </option>
+                      <option data-countryCode="YE" value="967">
+                        Yemen (South)(+967)
+                      </option>
+                      <option data-countryCode="ZM" value="260">
+                        Zambia (+260)
+                      </option>
+                      <option data-countryCode="ZW" value="263">
+                        Zimbabwe (+263)
+                      </option>
+                    </optgroup>
+                  </select>
+                </div>
+             
+                <div
+                  style="
+                    width: 60%;
+                    /* border: solid yellowgreen; */
+                    margin-left: 1%;">
+                  <input
+                    type="text"
+                    id="mobile_number"
+                    placeholder="So that property can reach you"
+                  />
+                  <p id="wrong_number"></p>  
+                </div>
+                <!-- <button id="submit" onclick="submit()">Submit</button> -->
+              </div>
+            </div>
+            <div id="checkbox"><input type="checkbox" /> Receive text alerts about this trip.
+                Message and data rates may apply.
+            </div>
+            <div id="smoke">
+                <h5 style="color: blue; font-weight: 400;">
+                  Smoking requests (optional)<i class="fa-solid fa-angles-down" style="font-size: x-small;margin-left: 10px;"></i>
+                  <button class="show1" onclick="show1()" style="border: none; background-color: white;">
+                </button>
+                </h5>
+               </div>
+           
+            <div id="smoke2">
+                <h5 style="color: blue; font-weight: 400;">
+                  Special Requests (optional)<i class="fa-solid fa-angles-down" style="font-size: x-small;margin-left: 10px;"></i>
+                  <button class="show2" onclick="show2()" style="border: none; background-color: white;">
+                  </button>
+                </h5>
+              </div>
+        </div>
+
+        <div id="product">
+            <div id="protect">
+                <div><h2><i class="fa-solid fa-shield-halved" style="margin-right: 10px;"></i>Protect your hotel</h2></div>
+            </div>
+
+            <div id="imp">
+                   <p style="color: rgb(77, 75, 75);"><i class="fa-solid fa-circle-exclamation" style="margin-right:10px"></i>
+                    Important:Trip cancellation due to government travel advisories, fear
+                    of travel, or change of mind is not covered. Travel insurance may
+                    provide coverage for COVID-19 diagnosed illness. COVID-19 is a
+                    foreseen event and certain other coverages will not apply.
+                    <a href="">Learn more</a></p>
+                </div>
+            
+                <div class="priya">
+                    <h5 style="color:black">Note:</h5>
+                    <p style="color: black;font-family: Arial, Helvetica, sans-serif; font-size: small;"> If you are a resident of WASHINGTON state, please click here to view products that
+                        you are eligible to purchase.</p>
+                </div>
+                <h4 style="color: black;font-size: large;font-weight: bold;margin-top: -12px;">4 reasons you might need travel protection</h4>
+                <ol class="gray">
+                    <li>You get delayed for covered reasons and miss a night of your hotel stay</li>
+                    <li>You're sick and don't use all your hotel night</li>
+                    <li>You need to extend your trip due to the illness of a travel companion</li>
+                    <li>You need up to $10,000 for covered medical expenses while on your trip</li>
+                </ol>
+                <p style="color:blue; font-size:x-small;">View insurance details and disclosures</p>
+                <h4>Select Yes or No to continue booking</h4>
+                <div id="lightgreen" class="priya">
+                    <input type="radio">
+                    <p>Yes, I want Hotel Booking Protection Plus for my trip.</p>
+                </div>
+                <div id="violet" class="priya">
+                    <input type="radio">
+                    <p>No, I'm willing to risk my $421.89 trip.</p>
+                </div>
+                <p style="font-family: 'Lucida Grande', 'Helvetica Neue', Arial, sans-serif;color: rgb(78, 76, 76);font-size: 15px;">“ Things happened outside of my control which caused the trip to be canceled. The Travel
+                    Protection was valuable in reducing the losses to me when we had to cancel the trip. ” -
+                    Mr. Rodman</p>
+            </div>
+            <div id="payment">
+              <div class="outer">
+                  <div class="pr">
+                      <img src="https://www.pngitem.com/pimgs/m/580-5809732_wallet-wallet-icon-png-transparent-png.png"
+                          class="cen" height="20px" width="20px">
+                      <div>
+                          <div class="pr">
+                              <p class="green">We use secure transmission</p>
+                              <p class="green">We protect your personal information</p>
+                          </div>
+                          <div class="pr">
+                              <p class="sr">Debit/Credit Card</p>
+                              <p class="sr">PayPal</p>
+                              <p class="sr">Monthly Payments</p>
+                              <p class="sr">Click-to-Pay</p>
+                          </div>
+                          <hr>
+                          <div class="pr">
+                              <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_master_card.svg" alt="master card" class="cen" height="30px"
+                                  width="30px">
+                              <img src="https://th.bing.com/th/id/OIP.mY2qHz9m7Fki7kwD_klGCAHaFj?pid=ImgDet&rs=1" alt="america express"
+                                  class="cen" height="30px" width="30px">
+                              <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_china_union_pay.svg" alt="china union" class="cen"
+                                  height="30px" width="30px">
+                              <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_diners_club.svg" alt="dinner club" class="cen"
+                                  height="30px" width="30px">
+                              <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_discover.svg" alt="discover" class="cen" height="30px"
+                                  width="30px">
+                              <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_jcb.svg" alt="jcb" class="cen" height="30px"
+                                  width="30px">
+                              <img src="https://a.travel-assets.com/dms-svg/payments/cards-cc_visa.svg" alt="visa" class="cen" height="30px"
+                                  width="30px">
+                          </div>
+                          <h4>Name on card</h4>
+                          <input type="text" id="card_name">
+                          <h4>Debit/Credit card number</h4>
+                          <input type="tel" id="card_num">
+                          <h4>Expiration date</h4>
+                          <div class="pr">
+                              <select id="expiry_month">
+                                  <option>Month</option>
+                                  <option value="Jan">01-Jan</option>
+                                  <option value="Feb">02-Feb</option>
+                                  <option value="Mar">03-Mar</option>
+                                  <option value="Apr">04-Apr</option>
+                                  <option value="May">05-May</option>
+                                  <option value="Jun">06-Jun</option>
+                                  <option value="Jul">07-Jul</option>
+                                  <option value="Aug">08-Aug</option>
+                                  <option value="Sep">09-Sep</option>
+                                  <option value="Oct">10-Oct</option>
+                                  <option value="Nov">11-Nov</option>
+                                  <option value="Dec">12-Dec</option>
+                              </select>
+                              <select id="expiry_year">
+                                  <option>Year</option>
+                                  <option value="2020">2020</option>
+                                  <option value="2021">2021</option>
+                                  <option value="2022">2022</option>
+                                  <option value="2023">2023</option>
+                                  <option value="2024">2024</option>
+                                  <option value="2025">2025</option>
+                                  <option value="2026">2026</option>
+                                  <option value="2027">2027</option>
+                                  <option value="2028">2028</option>
+                                  <option value="2029">2029</option>
+                                  <option value="2030">2030</option>
+                                  <option value="2031">2031</option>
+                                  <option value="2032">2032</option>
+                                  <option value="2033">2033</option>
+                                  <option value="2034">2034</option>
+                                  <option value="2035">2035</option>
+                                  <option value="2036">2036</option>
+                                  <option value="2037">2037</option>
+                                  <option value="2038">2038</option>
+                                  <option value="2039">2039</option>
+                                  <option value="2040">2040</option>
+                              </select>
+                          </div>
+                          <div class="pr">
+                              <div>
+                                  <h4>Security Code</h4>
+                                  <input type="tel" id="sec_code">
+                              </div>
+                              <div>
+                                  <h4>Billing Zip Code</h4>
+                                  <input type="tel" id="zip_code">
+                              </div>
+                          </div>
+                      </div>
+             </div>
+              
+          
+              </div>
+              </div>
+              <div id="manage">
+                      <div class="cen">
+                                      <h2 style="color:#00253C">Manage your booking</h2>
+                                      <hr>
+                                      <h3>Confirmation email</h3>
+                                      <p>Please enter the email address where you would like to receive your confirmation.</p>
+                                      <h5>Email address</h5>
+                                      <input type="email">
+                                      <hr>
+                                      <h3>Create an account<h3>
+                                      <p style="font-size: medium;font-weight: lighter;">Easily access your itinerary when you create an account using the email address above.</p>
+                                      <h5>Create Password</h5>
+                                      <input type="password" placeholder="6-30 characters, no spaces">
+                                      <h5>Confirm Password</h5>
+                                      <input type="password">
+                        
+                                  </div>
+                                  <p style="color: rgb(88, 86, 86);">By creating an account, I agree to the<a href=""> Orbitz Rewards Terms and Conditions.</a></p>
+                              </div>
+                              <div id="lastdiv">
+                                  <div class="cen">
+                                      <h4 style="color: black;">Important information about your booking</h4>
+                                      <ul class="gray" style="overflow: scroll; height: 200px;font-size: 15px;">
+                                          <li><p> Cancellations or changes made after 6:00pm (property local time) on May 4, 2022 or no-show
+                                               are subject to a property fee equal to 100% of the total amount paid for the reservation.</p></li>
+                                          <li><p> This property offers transfers from the train station. To arrange pick-up, guests must contact the property 
+                                              48 hours prior to arrival, using the contact information on the booking confirmation. Front desk staff
+                                               will greet guests on arrival.For more details, please contact the property using the information on the booking confirmation.</p></li>
+                                          <li><p> Guests who book a full or half board inclusive rate plan receive buffet meal plans.</p></li>
+                                          <li><p> To register at this property, guests who are Indian citizens must provide a valid photo identity card issued by
+                                               the Government of India; travelers who are not citizens of India must present a valid passport and visa.</p></li>
+                                          <li><p> Per the property, all staff members at this property are fully vaccinated against COVID-19.</p></li>
+                                      </ul>
+                                      <p style="font-size: 15px;color:rgb(70, 69, 69);">By clicking on the button below, I acknowledge that I have reviewed the<a href=""> Privacy Statement</a>
+                                          Opens in a new window. and <a href="">Government Travel Advice</a> Opens in a new window. and have
+                                          reviewed
+                                          and accept the <a href="">Rules & Restrictions</a>  Opens in a new window. and <a href=""> Terms of Use</a></p>
+                                      <button id="complete_booking">
+                                          <h3> Complete Booking > </h3>
+                                      </button>
+                                    
+                                      <p style="color:rgb(72, 71, 71);"><i class="fa-solid fa-lock" style="margin-right:10px;"></i>We use secure transmission and encrypted storage to protect your personal
+                                          information.</p>
+                                         <p style="color:rgb(72, 71, 71);"> This payment will be processed in the U.S. This does not apply when the travel provider
+                                          (airline/hotel/rail, etc.) processes your payment.</p>
+                                  </div>
+                              </div>
+                              
+                             </div>
+                             <div id="rightcontainer">
+                              <div id="tinycontainer">
+                                <img src="https://images.trvl-media.com/hotels/1000000/440000/438400/438378/bdbe16ac_l.jpg" id="tinyimg" style="width: 400px; height: 200px;" alt="">
+                               <div style="padding-left: 10px;">
+                                <div style="font-size: large;">4.5/5 Wonderful  (660 reviews)</div>
+                <p>Guests rated this property 4.5/5 for cleanliness</p>
+                <div style="display: flex;">
+                  <h4>1Room:</h4>
+                  <p  style="margin-top: 23px;color: rgb(91, 89, 89);">Deluxe Room,1 King Bed,Sea View</p>
+                </div>
+               
+                <div style="display: flex;">
+                  <h4>Chick-in:</h4>
+                  <p style="margin-top: 23px;color: rgb(91, 89, 89);">Mon,May 9</p>
+                </div>
+                <div style="display: flex;">
+                  <h4>Chick-out:</h4>
+                  <p  style="margin-top: 23px;color: rgb(91, 89, 89);">Wed,May 11</p>
+                </div>
+                <div>2-night stay</div>
+                               </div>
+               
+
+                              </div>
+                              <div id="tiny2container">
+                                <h2>Price Details</h2>
+                                <hr>
+                                <div style="display: flex; justify-content: space-between;">
+                                  <p>1room x 1night</p>
+                                  <p>$610.28</p>
+                                </div>
+                                <div style="display: flex; justify-content: space-between;">
+                                  <p>Taxes and fees</p>
+                                  <p>$90.04</p>
+                                </div>
+                                <hr>
+                                <div style="display: flex; justify-content: space-between;">
+                                  <h3>Total</h3>
+                                  <h3>$700.32</h3>
+                                </div>
+                                <a href="">Use a coupon,promotion code</a>
+                              </div>
+                             </div>
+              </div>
+                   
+              
+              </div>
+                  </div>
+              </div>
+              </div>
+        </div>
+    </div>
+       
+  
+    
+</body>
+</html>
+<script src="scripts/paymnet.js"></script>

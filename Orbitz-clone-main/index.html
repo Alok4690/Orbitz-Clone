@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbitz Hotel Deals, Flights, Cheap Vacations & Rental Cars</title>
+     <link rel="shortcut icon" href=" https://media.glassdoor.com/sqll/12146/orbitz-worldwide-squarelogo-1412796984491.png" type="image/x-icon">  
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js"
+ crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar">
+     
+    </div>
+    <img id="imgmain" src="./media/image.png">
+
+    <div id="gsearchbox">
+        <div id="ghead">
+            <p id="glstays">Stays</p> 
+            <p id="glflights">Flights</p>
+            <p id="glcars">Cars</p>
+            <p id="glpackages">Packages</p>
+            <p id="gltodo">Things to do</p>
+            <p id="glcruises">Cruises</p>
+        </div>
+        <hr>
+        <div id="gstaymain">
+        <div id="gstayopt">
+            <div id="gstaygoingtoinput" class="gstayborder">
+                <i class="fa-solid gsearchicon fa-location-dot"></i>
+                <span class="ggoingto">Going to</span>  
+            
+            </div>
+               
+            <div id="gstaycheckin" class="gstayborder hovercursor">
+                <input class="hg " id="gtimecheckin" type="date"/>
+              <div>
+                <span class="gstaydetails">Check-in</span> <br>
+                <span id="gcheckindate" class="gstaydates">May 19</span>
+              </div>
+              
+            </div>
+            <div id="gstaycheckout" class="gstayborder hovercursor">
+                <input class="hg " id="gtimecheckout" type="date"/>
+                <div>
+                    <span class="gstaydetails">Check-out</span>  <br>
+                  <span id="gcheckoutdate">May 20</span>
+                  </div>
+            </div>
+            <div id="gstaytravelers" class="gstayborder">
+                <i class="fa-solid gsearchicon fa-user"></i>
+                <div>
+                    <span class="gstaydetails">Travelers</span> <br>
+                  <span>1 room, 2 travelers</span>
+                  </div>
+            </div>
+        </div>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            
+             <input type="text" id="genterplace" placeholder="Where are you going?">
+                <hr>
+                <div class="gdropdownopt">
+                    <div><i class="fa-solid fadedclr gresultsicon fa-clock-rotate-left"></i></div>
+                    <div id="gbangalore" class="font14 hovercursor">
+                        <div class="gcityname">Bangalore</div>
+                        <div class="fadedclr">Bangalore, India</div>
+                    </div>
+                </div>
+                <div class="gdropdownopt">
+                    <div><i class="fa-solid fadedclr gresultsicon fa-clock-rotate-left"></i></div>
+                    <div id="gdelhi" class="font14 hovercursor">
+                        <div class="gcityname">New Delhi</div>
+                        <div class="fadedclr">New Delhi, India</div>
+                    </div>
+                </div>
+                <div class="gdropdownopt">
+                    <div><i class="fa-solid fadedclr gresultsicon fa-clock-rotate-left"></i></div>
+                    <div id="gsrinagar" class="font14 hovercursor">
+                        <div class="gcityname">Srinagar</div>
+                        <div class="fadedclr">Srinagar, India</div>
+                    </div>
+                </div>
+                <div class="gdropdownopt">
+                    <div><i class="fa-solid fadedclr gresultsicon fa-clock-rotate-left"></i></div>
+                    <div id="ghyd" class="font14 hovercursor">
+                        <div class="gcityname">Hyderabad</div>
+                        <div class="fadedclr">Hyderabad, India</div>
+                    </div>
+                </div>
+                <div class="gdropdownopt">
+                    <div><i class="fa-solid fadedclr gresultsicon fa-clock-rotate-left"></i></div>
+                    <div id="gchd" class="font14 hovercursor">
+                        <div class="gcityname">Chandigarh</div>
+                        <div class="fadedclr">Chandigarh, India</div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+         <!-- The Modal -->
+         <div id="myModal1" class="modal1">
+
+            <!-- Modal content -->
+            <div class="modal-content1">
+                <div class="gfeaturetextoverimg">
+                    Travelers
+                </div>
+                <div class="bold font14 margintop7">
+                    Room 1
+                </div>
+                <div class="fadedclr gflxspcb">
+                    <p>Adults</p>
+                    <div class="gqrdiv">
+                       <div><i class="fa-solid gsearchicon hovercursor gpathicon fa-minus"></i></div>
+                    <span class="margintop10">2</span>
+                     <div><i class="fa-solid gsearchicon hovercursor gpathicon fa-plus"></i></div>
+                    </div>
+                </div>
+                <div class="fadedclr gflxspcb">
+                    <div>Children <br> Ages 0 to 17</div>
+                    <div class="gqrdiv">
+                       <div><i class="fa-solid gsearchicon hovercursor gpathicon fa-minus"></i></div>
+                    <span class="margintop10">0</span>
+                     <div><i class="fa-solid hovercursor gsearchicon gpathicon fa-plus"></i></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="groomextra hovercursor"> Add another room</p>
+                   
+                </div>
+                <button class="gdonetravelers hovercursor">Done</button>
+               
+               
+            </div>
+        
+        </div>
+        <div id="gaddtransport">
+            <div class="gcheckbox">
+                <input type="checkbox" class="largecheckbox" > Add a flight
+            </div>
+            <div  class="gcheckbox"> <input type="checkbox" class="largecheckbox"> Add a car</div>
+            
+           
+        </div>
+    </div>
+
+    <div id="gflightopt">
+        <div id="gtripeco">
+           <div id="gtrip">
+                <div class="gtripway ">
+                    <p>Roundtrip</p>
+                </div>
+                <div class="gtripway gtripbluehover">
+                <p>One-way</p> 
+                </div>
+                <div class="gtripway gtripbluehover">
+                    <p>Multi-city</p>
+                </div>
+            </div>
+            <div>
+                <span class="gecocolor">1 traveler ˅</span>
+                <span class="gecocolor">Economy ˅</span>
+            </div>
+        </div>
+        <div id="gflightinput">
+            <div id="gflightpath">
+                <div class="gflightborder gflightlength">
+                    <i class="fa-solid gsearchicon fa-location-dot"></i>
+                    <span class="ggoingto">Leaving from</span>
+                 </div>
+                 <div><i class="fa-solid gpathicon fa-arrow-right-arrow-left"></i></div>
+                 <div class="gflightborder gflightlength">
+                    <i class="fa-solid gsearchicon fa-location-dot"></i>
+                    <span class="ggoingto">Going to</span>  
+                 </div>
+            </div>
+          
+            <div class="gflightborder">
+                <i class="fa-solid gsearchicon fa-calendar-day"></i>
+                <div>
+                    <span class="gstaydetails">Departing</span> <br>
+                    <span class="gstaydates">May 19</span>
+                  </div>
+            </div>
+            <div class="gflightborder">
+                <i class="fa-solid gsearchicon fa-calendar-day"></i>
+                <div>
+                    <span class="gstaydetails">Returning</span> <br>
+                    <span class="gstaydates">May 20</span>
+                  </div>
+            </div>
+        </div>
+        <div id="gflightaddtransport">
+            <div class="gcheckbox gmarginspace">
+                <input type="checkbox" class="largecheckbox" > Add a place to stay
+            </div>
+            <div  class="gcheckbox gmarginspace"> <input type="checkbox" class="largecheckbox"> Add a car</div>
+          
+        </div>
+  
+    </div>
+    <!-- car opt -->
+
+    <div id="gcaropt">
+        <div id="gtrip">
+            <div class="gtripway">
+                <p>Rental cars</p>
+            </div>
+            <div class="gtripway gtripbluehover">
+            <p>Airport transportation</p> 
+            </div>
+            
+        </div>
+        <div id="gcarinput_1">
+            <div class="gflightborder gcarinput_1box">
+                <i class="fa-solid gsearchicon fa-location-dot"></i>
+                <span class="ggoingto">Pick-up</span>
+           
+            </div>
+            <div class="gflightborder gcarinput_1box">
+                <i class="fa-solid gsearchicon fa-location-dot"></i>
+                <span class="ggoingto">Same as pick-up</span>
+           
+            </div>
+        </div>
+        <div id="gcarinput_2">
+            <div class="gflightborder gcarinput_2box">
+                <i class="fa-solid gsearchicon fa-calendar-day"></i>
+                <div>
+                    <span class="gstaydetails">Pick-up date</span> <br>
+                    <span class="gstaydates">May 20</span>
+                  </div>
+            </div>
+            <div class="gflightborder gcarinput_2box">
+                <i class="fa-solid gsearchicon fa-calendar-day"></i>
+                <div>
+                    <span class="gstaydetails">Drop-off date</span> <br>
+                    <span class="gstaydates">May 20</span>
+                  </div>
+            </div>
+            <div class="gflightborder gcarinput_2box">
+                <i class="fa-regular gsearchicon fa-clock"></i>
+                <div>
+                    <span class="gstaydetails">Pick-up time</span> <br>
+                    <span class="gstaydates">10:30 am</span>
+                  </div>
+            </div>
+            <div class="gflightborder gcarinput_2box">
+                <i class="fa-regular gsearchicon fa-clock"></i>
+                <div>
+                    <span class="gstaydetails">Drop-off time</span> <br>
+                    <span class="gstaydates">10:30 am</span>
+                  </div>
+            </div>
+            
+        </div>
+        <div class="gmemberaarpmain"  >
+        <div class="gcheckbox font14"  >
+            <input type="checkbox" class="largecheckbox" > Include AARP member rates
+        </div>
+        <div id="gmemberaarp" class="fadedclr font12">
+            Membership is required and verified at pick-up.
+        </div>
+        </div>
+        <div class="font14 gdiscountcode" >I have a discount code ˅</div>
+    </div>
+
+    <!-- package opt -->
+
+    <div id="gpackageopt">
+        <div class="fadedclr font14">Choose two or more items and save on your trip:</div>
+        <div id="gtripeco">
+            <div id="gpackageadded" class="font12">
+                <div class="gpackage_col2 hovercursor ">Stay added</div>
+                <div class="gpackage_col2 hovercursor">Flight added</div>
+                <div class="gpackage_col2 hovercursor gtripbluehover gpackage_col2_3">Add a car</div>
+            </div>
+            <div>
+                <span class="gecocolor">1 room, 2 travelers ˅</span>
+                <span class="gecocolor">Economy ˅</span>
+            </div>
+        </div>
+        <div id="gpackage_input">
+            <div id="gflightpath">
+                <div class="gflightborder gflightlength">
+                    <i class="fa-solid gsearchicon fa-location-dot"></i>
+                    <span class="ggoingto fadedclr">Leaving from</span>
+                 </div>
+                 <div><i class="fa-solid gpathicon fa-arrow-right-arrow-left"></i></div>
+                 <div class="gflightborder gflightlength">
+                    <i class="fa-solid gsearchicon fa-location-dot"></i>
+                    <span class="ggoingto fadedclr">Going to</span>  
+                 </div>
+            </div>
+            <div class="gpackborder marginleft10">
+                <i class="fa-solid gsearchicon fa-calendar-day"></i>
+                <div>
+                    <span class="gstaydetails">Departing</span> <br>
+                    <span class="gstaydates">May 19</span>
+                  </div>
+            </div>
+            <div class="gflightborder marginleft10">
+                <i class="fa-solid gsearchicon fa-calendar-day"></i>
+                <div>
+                    <span class="gstaydetails">Returning</span> <br>
+                    <span class="gstaydates">May 20</span>
+                  </div>
+            </div>
+        </div>
+        <div id="gpackagecheckbox">
+            <div class="gcheckbox">
+                <input type="checkbox" class="largecheckbox" > I only need accommodations for part of my trip
+            </div>            
+           
+        </div>
+    </div>
+    <!-- things to do -->
+     <div id="gthingstodo">
+            <div class="gflightborder gthingsinput_1">
+                <i class="fa-solid gsearchicon fa-location-dot"></i>
+                <span class="ggoingto">Things to do in</span>  
+            
+            </div>
+            <div class="gflightborder gthingsinput_2">
+                <i class="fa-solid gsearchicon fa-calendar-day"></i>
+              <div>
+                <span class="gstaydetails">From</span> <br>
+                <span class="gstaydates">May 19</span>
+              </div>
+              
+            </div>
+            <div class="gflightborder gthingsinput_2">
+                <i class="fa-solid gsearchicon fa-calendar-day"></i>
+                <div>
+                    <span class="gstaydetails">To</span>  <br>
+                  <span>May 20</span>
+                  </div>
+            </div>
+        </div>
+
+        <!-- cruises -->
+
+        <div id="gcruise">
+            <p class="gcruisepad font14 fadedclr" >For expert cruise advice, call 1-844-730-9892.</p>
+            <div class="gcruiseinput">
+                <div class="gflightborder gcarinput_1box ">
+                    <div class="marginleft10">
+                        <span class="gstaydetails">Going to</span>  <br>
+                      <span>Select destination</span>
+                      </div>
+               
+                </div>
+                <div class="gflightborder gcarinput_1box">
+                    <i class="fa-solid gsearchicon fa-user"></i>
+                <div>
+                    <span class="gstaydetails">Travelers in the cabin</span> <br>
+                  <span>2 Travelers</span>
+                  </div>
+               
+                </div>
+            </div>
+            <div  class="gcruiseinput">
+                <div class="gflightborder gcarinput_1box">
+                    <i class="fa-solid gsearchicon fa-calendar-day"></i>
+              <div>
+                <span class="gstaydetails">Departs as early as</span> <br>
+                <span class="gstaydates">May 6</span>
+              </div>
+                </div>
+                <div class="gflightborder gcarinput_1box">
+                    <i class="fa-solid gsearchicon fa-calendar-day"></i>
+                    <div>
+                      <span class="gstaydetails">Departs as late as</span> <br>
+                      <span class="gstaydates">June 5</span>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+        <button id="gheadbtn">Search</button>
+    </div>
+   
+   
+<!-- after search section -->
+
+<div id="gbelowsearch">
+  <div id="gbelowpad">
+    <div id="gfirst">
+        <div class="glgbtqdiv hovercursor">
+            <img class="glgbtq" src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_TravelAsYouAre_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="">
+            <div class="glshadow"></div>
+        </div>
+        <div class="glgbtqdiv hovercursor">
+            <img class="glgbtq " src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_Rewards_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="">
+            <div class="glshadow"></div>
+        </div>
+        <div class="glgbtqdiv hovercursor">
+            <img class="glgbtq" src="https://forever.travel-assets.com/flex/flexmanager/images/2022/02/09/ORB_BrandPromise_InsiderPrices_imgB_840x473_20220207.jpg?impolicy=fcrop&w=900&h=386&q=mediumHigh" alt="">
+            <div class="glshadow"></div>
+        </div>
+    </div>
+    <div class="gfeaturestext">Featured offers</div>
+    <div id="gfeaturesdiv">
+        <div class="gfeatureimgdiv hovercursor">
+            <img class="gfeatureimg" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_LastMinute_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh" alt="">
+            <div class="gfeaturebottom_left">
+               <span class="gfeaturetextoverimg" >Last-minute deals</span>  <br>
+                Getaway today 
+                </div>
+        </div>
+        <div class="gfeatureimgdiv hovercursor">
+            <img class="gfeatureimg" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_AllInclusive_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh" alt="">
+            <div class="gfeaturebottom_left">
+                <span class="gfeaturetextoverimg" >All-inclusive resorts</span>  <br>
+                Enjoy sun and fun
+            </div>
+        </div>
+        <div class="gfeatureimgdiv hovercursor">
+            <img class="gfeatureimg" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_MOD_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh" alt="">
+            <div class="gfeaturebottom_left">
+                <span class="gfeaturetextoverimg" >Insider Prices</span>  <br>
+                Members get rewarded
+            </div>
+        </div>
+        <div class="gfeatureimgdiv hovercursor">
+            <img class="gfeatureimg" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_JetAndReset_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh" alt="">
+            <div class="gfeaturebottom_left">
+                 <span class="gfeaturetextoverimg" >Jet and reset</span>  <br>
+                Fly somewhere beachy and warm
+            </div>
+        </div>
+    </div>
+    <div id="grentaldeals">
+        <div>
+            <img class="grentalpic1 hovercursor" src="./media/image2.png" alt="">
+
+        </div>
+        <div class="gadorb">
+            <img class="hovercursor" src="https://tpc.googlesyndication.com/simgad/2468637394072322380" alt="">
+            <div class="gadcross hovercursor">✖</div>
+        </div>
+    </div>
+    <div class="gfeaturestext">Here to help keep you on the move</div>
+    <div id="gchangetrip">
+        <div class="gchangetrip_div hovercursor">
+            <div> <div class="gfeaturetextoverimg">Change or cancel a trip</div>  
+                <div class="font12 fadedclr margintop7">Make update to your itinerary or cancel a booking</div></div>
+            <div> <i class="fa-solid font12 blueclr fa-pen"></i></div>
+        </div>
+        <div class="gchangetrip_div hovercursor">
+            <div> <div class="gfeaturetextoverimg">Use a credit or coupon</div>  
+            <div class="font12 fadedclr margintop7">Apply a coupon code or credit to a new trip</div></div>
+        <div> <i class="fa-solid font12 blueclr fa-dollar-sign"></i></i></i></div>
+        </div>
+        <div class="gchangetrip_div hovercursor">
+            <div> <div class="gfeaturetextoverimg">Track your refund</div>  
+                <div class="font12 fadedclr margintop7">Check the status of a refund currently in progress</div></div>
+            <div><i class="fa-regular font12 blueclr fa-comments"></i></i></div>
+        </div>
+    </div>
+    <div class="gfeaturestext marginbottom15 margintop25">Travelling tips</div>
+    <div class="gflxspcb">
+        <div class="gnatparkdiv">
+            <img class="gnatpark" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg" alt="">
+            <div class="gnatshadow"> 
+                <div class="gnatparktext">
+                    <div class="fontweight font22">National Parks</div>
+                <div>There's plenty to keep you busy.</div> 
+                    <div class="gnatlearnmore hovercursor">Learn more</div>
+            </div>
+                
+            </div>
+        </div>
+        <div  class="gnatparkdiv">
+          <img  class="gnatpark" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg" alt="">  
+            <div class="gnatshadow">
+                <div class="gnatparktext">
+                    <div class="fontweight font22">The perfect road trip</div>
+                <div>Find an adventure for every season..</div> 
+                    <div class="gnatlearnmore hovercursor">Read on</div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="gaddtwo" class="hovercursor">
+
+        <img src="https://tpc.googlesyndication.com/simgad/4949189117277358588?" alt="">
+    </div>
+    <div id="gqr">
+        <img id="gqrpic" src="./media/image3.png" alt="">
+        <div id="gqrscan">
+            <div>
+                <p class="gfeaturestext gspacing">Rewards are waiting for you in the Orbitz<br>app</p>
+                <ul class="fadedclr font14 glinespace">
+                    <li>Earn 4% back when you book your hotel in app, vs. 3% on site</li>
+                    <li>Get flight status and gate number notifications</li>
+                    <li>Have questions about your stay? Message your hotel right in the app</li>
+                </ul>
+                <div class="gfeaturetextoverimg">Text yourself a download link</div>
+                <div class="gqrdiv margintop7 marginbottom15">
+                    <div class="gscancodeinput hovercursor">
+                        <div>
+                            <span class="gstaydetails">Country code</span> <br>
+                            <span class="gstaydates fadedclr">USA +1</span>
+                          </div>
+                          <div class="gcodenum fadedclr"> ˅</div>
+                    </div>
+                    <div class="gscancodeinput"><span class="gspacing fadedclr">Phone number</span></div>
+                    <button class="gappgetbtn hovercursor">Get the app</button>
+                </div>
+                <div class="fadedclr font12 ">
+                    By providing your number, you agree to receive a one-time automated
+                     text message with a link to get <br> the app. Standard 
+                     text message rates may apply.
+                </div>
+           
+            </div>
+            <div>
+                <img id="gqrscanner" src="https://a.travel-assets.com/mad-service/qr-code/portfolio_app_landing/qr_app_landing_footer_orbitz.png" alt="">
+                <p class="bold font14 gscantext ">Scan the QR code</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="gfeaturestext">More destinations </div>
+    <div id="gdestinationdeal">
+        <div class="gdestdiv hovercursor">
+            <div>Destination deals</div>
+           <div class="fadedclr">˅</div>
+        </div>
+        <div class="gdestdiv hovercursor">
+            <div>Top hotel beach destinations</div>
+            <div class="fadedclr">˅</div>
+        </div>
+        <div class="gdestdiv hovercursor">
+            <div>Top hotel city destinations</div>
+            <div class="fadedclr">˅</div>
+        </div>
+        <div class="gdestdiv hovercursor">
+            <div>Top vacation destinations</div>
+            <div class="fadedclr">˅</div>
+        </div>
+        <div class="gdestdiv hovercursor">
+            <div>Top flight destinations</div>
+            <div class="fadedclr">˅</div>
+        </div>
+        <div class="gdestdiv hovercursor">
+            <div>Top car rental destinations in Amercia</div>
+            <div class="fadedclr">˅</div>
+        </div>
+    </div>
+
+
+  </div>
+  <div id="foot">
+   
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+<script src="scripts/home.js" type="module"></script>

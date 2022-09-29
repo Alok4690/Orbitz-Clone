@@ -1,0 +1,240 @@
+html{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ }
+
+#navbar{
+    background-color: #00253C;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+}
+#heading{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#signin{
+    margin-right: 30px;
+}
+#covid{
+    background-color:  rgb(240, 220, 180);
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+}
+#maincontainer{
+    width: 80%;
+    margin: auto;
+    
+}
+#cancel{
+    color: gray;
+    display: flex;
+    margin-top: 10px;
+    box-shadow: rgba(115, 117, 118, 0.15) 0px 1px 2px 0px, rgba(115, 117, 118, 0.15) 0px 2px 6px 2px;
+
+}
+#earn{
+  box-shadow: rgba(115, 117, 118, 0.15) 0px 1px 2px 0px, rgba(115, 117, 118, 0.15) 0px 2px 6px 2px;
+    display: flex;
+}
+/* #room{
+    display: flex;
+} */
+#buski input{
+height: 30px;
+width: 60%;
+border-radius: 4px;
+}
+
+#buski {
+/* border: 1px solid blue; */
+width: 100%;
+/* height: 100px; */
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 1%;
+}
+
+input{
+outline: none;
+padding-left: 2%;
+}
+
+#buski label {
+display: block;
+font-size: 13px;
+font-weight: 700;
+color: rgb(97,97,97);
+font-family:"Helvetica Neue", Arial, "Lucida Grande", sans-serif
+}
+
+#sam , #ravi  {
+width: 40%;
+height: 100%;
+/* border: 1px solid blue; */
+}
+#wrong_first_name, #wrong_last_name {
+color: red;
+font-size: 13px;
+font-weight: 400;
+}
+
+
+#preeti {
+/* border: 1px solid yellow; */
+width: 93%;
+/* height: 90px; */
+margin-bottom: 1%;
+padding-left: 7%;
+}
+h5 {
+    margin: 10px 10px 10px 0px;
+    font-size: medium;
+}
+
+/* #preeti{
+display: flex;
+border: solid;
+} */
+
+#preeti select{
+width: 100%;
+height: 40px;
+background-color: rgb(237,237,237);
+border-radius: 5px;
+margin-top: 0px;
+margin-left: 0px;
+}
+
+#preeti input{
+height: 35px;
+width: 100%;
+border-radius: 5px;
+}
+.priya {
+    display: flex;
+    margin: 0px;
+}
+#booking{
+box-shadow: rgba(115, 117, 118, 0.15) 0px 1px 2px 0px, rgba(115, 117, 118, 0.15) 0px 2px 6px 2px;
+}
+#lightgreen {
+    height: 60px;
+    width: 97%;
+    background-color: rgb(226, 247, 226);
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#violet {
+    height: 60px;
+    width: 97%;
+    background-color: rgb(240, 229, 240);
+    margin-right: 10px;
+}
+.gray {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    margin: 10px 5px 10px 0px;
+}
+.green {
+    color: rgb(13, 173, 13);
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+#imp{
+box-shadow: rgba(115, 117, 118, 0.15) 0px 1px 2px 0px, rgba(115, 117, 118, 0.15) 0px 2px 6px 2px;
+}
+#product{
+box-shadow: rgba(115, 117, 118, 0.15) 0px 1px 2px 0px,  rgba(115, 117, 118, 0.15) 0px 2px 6px 2px;
+}
+.outer {
+    width: 100%;
+    height: 1400px;
+    display: grid;
+    grid-template-columns: 770px;
+    grid-template-rows: 450px 450px 400px;
+    grid-gap: 10px;
+}
+
+.outer>div {
+    background-color: white;
+    border-radius: 2px;
+}
+.pr {
+    display: flex;
+    margin: 0px;
+}
+
+.cen {
+    margin: 10px;
+}
+
+.h {
+    color: #0a81b4;
+    margin-top: 15px;
+}
+
+.h:hover {
+    text-decoration: underline;
+}
+
+.sr {
+    color: rgb(42, 42, 253);
+    margin: 0px 10px;
+    margin-top: 13px;
+}
+
+.sr:hover {
+    text-decoration: black;
+    background-color: rgb(219, 212, 212);
+}
+#payment{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 540px;
+}
+
+h4,h5{
+    color: rgb(106, 102, 102);
+}
+#manage{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  height: 460px;
+}
+#lastdiv{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: auto;
+}
+button {
+    padding: 0px 10px;
+    background-color: rgb(194, 70, 132);
+    color: white;
+    border: solid rgb(194, 70, 132);
+    border-radius: 3px;
+    cursor:pointer;
+}
+#bigcontainer{
+  display: flex;
+}
+#rightcontainer{
+  /* border: 1px solid red; */
+}
+#tinycontainer{
+  height: auto;
+  width: 400px;
+  /* border: 1px solid black; */
+  margin:10px;
+  box-shadow: rgba(115, 117, 118, 0.15) 0px 1px 2px 0px, rgba(115, 117, 118, 0.15) 0px 2px 6px 2px;
+}
+#tiny2container{
+  height: auto;
+  width: 400px;
+  /* border: 1px solid black; */
+  margin:10px;
+ padding-left: 10px; 
+ box-shadow: rgba(115, 117, 118, 0.15) 0px 1px 2px 0px, rgba(115, 117, 118, 0.15) 0px 2px 6px 2px;
+}
+a{
+  color: blue;
+}
